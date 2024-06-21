@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class=register_body>
+<header>
+    <h2 class="logo"> </h2>
+    <nav class = "navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href='login-form.html' id="login_link">Log in</a>
+    </nav>
+</header>
+
+<div class="register">
+
+
+    <h1>Sign Up</h1>
+    <form method="POST">
+        <label>First Name</label>
+        <input type="text" name="fname" required>
+        <label>Last Name</label>
+        <input type="text" name="lname" required>
+        <label>Email</label>
+        <input type="text" name="email" required placeholder="example@test.com">
+        <label>Username</label>
+        <input type="text" name="username" required placeholder="username">
+        <label>Password</label>
+        <input type="password" name="password" required placeholder="********">
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <p> Already have an account? <a href="login-form.html">Login </a></p>
+</div>
+</body>
+</html>
